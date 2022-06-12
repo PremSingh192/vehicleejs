@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .myul{
+         display: block !important; 
+        padding-left: 6% !important;
+        padding-top: 3% !important;
+        margin-bottom: -25px;
+    
+      }
+    #toppart{
+        margin-top: 50px;
+        padding-top: 130px;
+    }
+}
+
+ @media only screen and (min-width: 600px){
+    .mbar{
+        display: none;
+       cursor: pointer;
+        margin-left: 0px;
+    }
+    
+}
+
+
+body{
+    background: rgb(239, 227, 241);
+    min-width: 480px;
+}
+
+.mynav{
+
+    display: flex;
+    position: fixed;
+    background: url('./images/navdark.jpg');
+    width: 100%;
+    padding: 0.752%;
+    opacity:0.6;
+    
+    
+   
+}
+.myulgo{
+    display: none !important;
+    visibility: hidden;
+   
+}
+.myul{
+   display: flex;
+   padding-left: 35%;
+   padding-top: 0.5%;
+   
+
+}
+.myul a {
+ text-decoration: none;
+
+ padding: 1.5%;
+
+
+
+}
+.myul a li{
+    display: flex;
+    list-style-type: none;
+    color: blanchedalmond;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.myul a li:hover{
+
+    padding-bottom: 0%;
+    border-bottom: 2px solid grey;
+    animation: ease-in;
+    transition: linear;
+    /* color: rgb(226, 223, 19); */
+    box-shadow: 10px 5px 5px black;
+}
+
+.mbar{
+    /* display: none; */
+   cursor: pointer;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
